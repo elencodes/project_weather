@@ -1,0 +1,21 @@
+.section {
+	max-width: 80rem;
+	margin: 0 auto;
+	padding: 1rem 0;
+	background-color: rgba(214, 174, 255, 0.28);
+}
+
+.title {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.list,
+.list__minmax {
+	margin: 2rem 0 0 1rem;
+}
+
+.list__text--bold {
+	font-weight: 600;
+}
