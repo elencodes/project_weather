@@ -1,6 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style-type: none;
+}
+
 .section {
-  max-width: 80rem;
-  margin: 0 auto;
+  max-width: 70rem;
+  margin: 3rem auto 0;
   padding: 1rem 0;
   background-color: rgba(214, 174, 255, 0.28);
 }
@@ -16,6 +23,11 @@
   margin: 2rem 0 0 1rem;
 }
 
+.list li {
+  margin-bottom: 0.5rem;
+}
+
 .list__text--bold {
   font-weight: 600;
+  margin-bottom: 0.5rem;
 }
