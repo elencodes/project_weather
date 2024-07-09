@@ -23,11 +23,11 @@ for (let i = 0; i < temperatures.length; i++) {
 }
 
 //5 Находим максимальную температуру из массива с температурами и выводим ее на экран
-const maxTemperatureValue = Math.max.apply(null, temperatures);
+const maxTemperatureValue = Math.max(...temperatures);
 const maxTemperature = document.querySelector(`#maxTemperature`)
 maxTemperature.textContent = maxTemperatureValue;
 
 //6 Находим минимальную температуру из массива с температурами и выводим ее на экран
-const minTemperatureValue = Math.min.apply(null, temperatures);
+const minTemperatureValue = Math.min(...temperatures);
 const minTemperature = document.querySelector(`#minTemperature`)
 minTemperature.textContent = minTemperatureValue;
